@@ -1,0 +1,23 @@
+#aside {
+	background-color: $aside-bg;
+	min-width: 230px;
+	border-right: 1px solid darken($aside-bg, 9%);
+	position: fixed;
+	top: 48px;
+	bottom: 0;
+	left: 0;
+	.nav {
+		> li {
+			border-bottom: 1px solid darken($aside-bg, 8%);
+			font-weight: 600;
+		}
+		a.active {
+			background-color: lighten($primary, 5%);
+			color: #fff;
+		}
+	}
+	.title-sidebar {
+		padding: 0.6rem 0.5rem;
+		color: #999;
+	}
+}

@@ -1,0 +1,204 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<title>Bootstrap 4</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+	<!-- Navbar -->
+	<nav class="navbar navbar-expand-md navbar-light sticky-top">
+
+		<a class="navbar-brand" href="#">Navbar</a>
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="active">
+					<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li>
+					<a class="nav-link" href="#">Link</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					Dropdown
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">Action</a>
+						<a class="dropdown-item" href="#">Another action</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#">Something else here</a>
+					</div>
+				</li>
+				<li class="nav-item">
+				<a class="nav-link disabled" href="#">Disabled</a>
+				</li>
+			</ul>
+			
+			<ul class="navbar-nav">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					<span class="flag-icon flag-icon-um"></span>
+					</a>
+					<div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="#">
+							<span class="flag-icon flag-icon-gb"></span>
+							English
+						</a>
+						<a class="dropdown-item" href="#">
+							<span class="flag-icon flag-icon-fr"></span>
+							French
+						</a>
+						<a class="dropdown-item" href="#">
+							<span class="flag-icon flag-icon-de"></span>
+							German
+						</a>
+						<a class="dropdown-item" href="#">
+							<span class="flag-icon flag-icon-nl"></span>
+							Dutch
+						</a>
+					</div>
+				</li>
+				<li>
+					<a href="#" class="nav-link">
+						<i class="fa fa-bell" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link">
+						<i class="fa fa-envelope" aria-hidden="true"></i>
+					</a>
+				</li>
+				<li>
+					<a href="#" class="nav-link">
+						<i class="fa fa-comments" aria-hidden="true"></i>
+					</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--//Navbar -->
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+		
+		<!-- Aside -->
+		<aside id="aside">
+			<ul class="nav flex-column">
+				<li class="title-sidebar">Navbar</li>
+				<li>
+					<a class="nav-link active" href="#">
+						<i class="fa fa-tachometer" aria-hidden="true"></i>
+						Dashboard
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#">
+						<i class="fa fa-cubes" aria-hidden="true"></i>
+						Widgets
+					</a>
+				</li>
+				<li class="title-sidebar">Components</li>
+				<li>
+					<a class="nav-link" href="#">
+						<i class="fa fa-exclamation-triangle" aria-hidden="true"></i>
+						Alerts
+					</a>
+				</li>
+				<li>
+					<a class="nav-link" href="#">
+						<i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+						Badge
+					</a>
+				</li>
+			</ul>
+		</aside>
+		<!--//Aside -->
+		
+		<!-- Content -->
+		<section id="content-wrapper">
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="card">
+						<div class="card-header"><i class="fa fa-area-chart" aria-hidden="true"></i> Standart</div>
+						<div class="card-body">
+							<div class="flot-container">
+								<div id="flot-placeholder" style="width:100%;height:300px"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="card">
+						<div class="card-header"><i class="fa fa-area-chart" aria-hidden="true"></i> Double</div>
+						<div class="card-body">
+							<div class="flot-container">
+								<div id="flot-placeholder-double" style="width:100%;height:300px"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6 mt-4">
+					<div class="card">
+						<div class="card-header"><i class="fa fa-area-chart" aria-hidden="true"></i> Stacking</div>
+						<div class="card-body">
+							<div class="flot-container">
+								<div id="flot-placeholder-stack" style="width:100%;height:300px"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-6 mt-4">
+					<div class="card">
+						<div class="card-header"><i class="fa fa-area-chart" aria-hidden="true"></i> Realtime</div>
+						<div class="card-body">
+							<div class="flot-container">
+								<div id="flot-placeholder-realtime" style="width:100%;height:300px"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+			<p>Pulvinar fames non phasellus dignissim imperdiet sociosqu magna dictum gravida, tincidunt mattis mauris felis ante montes rhoncus semper, iaculis nisl facilisis malesuada maecenas pharetra metus risus. Ultrices nunc aptent lacus sodales sagittis amet urna viverra ut, elementum habitant at congue rhoncus ultricies nostra vitae bibendum, sed libero vulputate mus dictumst felis imperdiet enim. Quis porta turpis dictumst id venenatis fermentum non vestibulum, imperdiet purus eget iaculis magnis vulputate congue donec, ultrices scelerisque consectetur hac inceptos fringilla adipiscing. Nunc curae praesent turpis molestie commodo torquent sem fringilla malesuada blandit, nec porta consequat litora risus nullam viverra natoque quisque cras vulputate, vitae himenaeos sociosqu facilisis vehicula cum dui a class. Vitae nulla parturient integer turpis fusce senectus nascetur tempus cum natoque quam tristique dictumst congue penatibus, lobortis habitasse malesuada sit dictum aenean hendrerit pretium bibendum diam consequat cubilia himenaeos. Aliquam adipiscing nunc vehicula pulvinar risus vulputate curabitur nisl egestas vitae mus, non ipsum feugiat diam vestibulum nullam dapibus in turpis sodales sociosqu massa, at auctor dolor imperdiet condimentum montes nulla nam posuere arcu.</p>
+
+			<p>Ligula dui auctor mollis feugiat odio convallis vitae, ac erat pulvinar viverra netus tellus, mus facilisi sem nullam accumsan sapien. Fames tellus nulla pharetra habitasse facilisis nibh, curae dis laoreet neque malesuada. Sit class magna praesent maecenas euismod mi aliquam laoreet dictum, sollicitudin nascetur dapibus rhoncus commodo imperdiet neque inceptos, eros quam egestas ornare posuere cursus dictumst habitasse. Diam feugiat curae in vulputate curabitur nullam volutpat odio donec sagittis laoreet viverra, adipiscing non fames cum auctor facilisi luctus erat maecenas magnis velit tincidunt lectus, quam sed porta lorem rhoncus nisi eros pretium penatibus purus tempor. Porta varius netus nisi consequat neque arcu taciti, ullamcorper ornare accumsan mi aenean imperdiet.</p>
+		</section>
+		<!-- //Content -->
+
+	</div>
+	<!-- //Wrapper -->
+	
+
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+
+	<script src="js/popper.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+	<script src="js/jquery.flot.min.js"></script>
+	<script src="js/jquery.flot.resize.js"></script>
+	<script src="js/jquery.flot.stack.js"></script>
+
+
+	<script src="js/scripts.js"></script>
+</body>
+</html>
